@@ -1,0 +1,5 @@
+cron.log
+firebase-debug.log
+__pycache__/
+*.pyc
+.env
