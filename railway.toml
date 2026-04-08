@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "echo 'Debrief service ready'"
+
+[[services]]
+name = "morning-debrief"
+
+[cron]
+schedule = "0 0 * * *"
+command = "python railway_briefing.py"
